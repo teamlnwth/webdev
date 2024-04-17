@@ -1,0 +1,169 @@
+.containerHTR {
+    margin: 20px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-Booking {
+    text-align: left;
+    background-color: rgb(225, 225, 225);
+    margin: 0 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    border-radius: 10px;
+    max-width: 800px;
+    height: 320px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+}
+
+.booking-img {
+    
+    margin: 0 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.booking-img img {
+    width: 300px;
+    height: 200px;
+}
+
+.booking-detail {
+    margin: 0px 20px;
+
+}
+
+.status {
+    display: flex;
+}
+
+.Return {
+    margin-left: 5px;
+    padding: 2px 10px;
+    background-color: rgb(1, 151, 4);
+    color: white;
+    border-radius: 5px;
+}
+
+.notReturn {
+    margin-left: 5px;
+    padding: 2px 10px;
+    background-color: rgb(185, 15, 15);
+    color: white;
+    border-radius: 5px;
+}
+
+.Topmenu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filtermenu {
+    margin-top: 22px;
+    margin-right: 10px;
+}
+
+.adminconfirm {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.confirm {
+    margin-left: 10px;
+    margin-top: 15px;
+    background-color: rgb(61, 128, 244);
+    color: rgb(255, 255, 255);
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.notconfirm {
+    margin-left: 10px;
+    margin-top: 15px;
+    background-color: rgb(215, 230, 252);
+    color: rgb(94, 94, 94);
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.filtermenu Button {
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.review-btn {
+    margin: 7px 35px;
+}
+
+.btn-marginleft {
+    margin-left: 10px;
+}
+
+.bookingbill-img img{
+    height: 70%;
+    width: 90%;
+}
+
+@media screen and (max-width:768px) {
+    .container-Booking {
+        text-align: left;
+        background-color: rgb(225, 225, 225);
+        margin: 0 30px;
+        margin-bottom: 20px;
+        padding: 20px;
+        display: flex;
+        border-radius: 10px;
+        max-width: 400px;
+        height: 300px;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+        margin: 0 20px;
+    }
+
+    .booking-img img {
+        width: 180px;
+        height: 130px;
+    }
+
+    .booking-detail {
+        font-size: 11px;
+        margin: 0px 10px;
+    }
+
+    .adminconfirm {
+        font-size: 11px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .confirm {
+        font-size: 11px;
+        margin-left: 10px;
+        margin-top: 15px;
+        background-color: rgb(61, 128, 244);
+        color: rgb(255, 255, 255);
+        padding: 4px;
+        border-radius: 5px;
+    }
+    
+    .notconfirm {
+        font-size: 11px;
+        margin-left: 10px;
+        margin-top: 15px;
+        background-color: rgb(215, 230, 252);
+        color: rgb(94, 94, 94);
+        padding: 4px;
+        border-radius: 5px;
+    }
+
+    .review-btn {
+        width: 100px;
+        font-size: 11px;
+        margin: 0px 20px;
+    }
+    
+}

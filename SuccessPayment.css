@@ -1,0 +1,18 @@
+.success-payment{
+    color: green;
+    background-color: rgb(237, 255, 237);
+    padding: 2px;
+    padding-top: 4px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.waiting{
+    color: rgb(126, 97, 0);
+    background-color: rgb(255, 238, 160);
+    border-radius: 10px;
+    padding: 4px;
+}
+.alert-success{
+   margin-top: 20px;
+   text-align: center;
+}

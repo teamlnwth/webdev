@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.buttonback {
+  background-color: transparent; /* กำหนดให้พื้นหลังเป็นโปร่งใส */
+  border: none; /* ลบเส้นขอบ */
+  cursor: pointer; /* เปลี่ยนเป็นรูปปุ่ม */
+  margin: 20px;
+  margin-bottom: 0px;
+}
+
+.buttonback img {
+  width: 40px; /* กำหนดขนาดของรูปภาพไอคอน */
+  height: 40px;
+}
+
+.detialpage {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.detialcar img {
+  width: 650px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.layoutobj {
+  display: flex;
+  justify-content: space-between;
+}
+
+.layout1,
+.layout2 {
+  flex-basis: 45%;
+}
+
+.enginedetail {
+  margin-top: 21px;
+  background-color: #cccccc; /* สีเทา */
+  padding: 10px; /* เพิ่มขอบ */
+  border-radius: 21px; /* เพิ่มขอบเขต */
+  width: 550px; /* กำหนดความกว้างของ div */
+  min-height: 200px;
+  max-height: fit-content;
+  word-wrap: break-word; /* ทำให้ข้อความขึ้นบรรทัดใหม่เมื่อเกินขนาด */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+}
+.layout1 div {
+  font-size: 32px; /* ปรับขนาดฟอนต์ตามที่ต้องการ */
+  margin-top: 12px;
+}
+
+.layout2 div {
+  font-size: 32px; /* ปรับขนาดฟอนต์ตามที่ต้องการ */
+  margin-top: 20px;
+}
+
+.cheakcar {
+  width: 200px;
+  margin-top: 30px;
+}
+
+.layout2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* จัดให้เรียงตรงกลางแนวตั้ง */
+}
+.custom-datepicker {
+  width: 300px; /* Adjust the width as needed */
+}
+.backmenu {
+  display: flex;
+}
+.breadcrumb {
+  margin-top: 35px;
+  margin-left: 35px;
+}
+
+.comment-wrapper {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 600px;
+  /* Adjust the maximum height as needed */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  margin-bottom: 20px;
+
+}
+.headcomment {
+  margin: 0 auto;
+  max-width: 600px;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  z-index: -1;
+}
+
+.insCom {
+  width: 100%;
+  padding: 14px;
+  border-radius: 4px;
+  border: 2px solid #000000;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+}
+.insCom p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.insCom:hover {
+  border-color: #007bff;
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+}
+
+.username {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.editcarmenu {
+  display: flex;
+    
+}
+
+@media (max-width: 768px) {
+  .layoutobj {
+    flex-direction: column-reverse; /* เรียง .layout2 ไว้ด้านบน */
+    align-items: center; /* จัดให้เรียงตรงกลางแนวนอน */
+  }
+
+  .layout2 {
+    align-items: center; /* จัดให้เรียงตรงกลางแนวนอน */
+  }
+
+  .enginedetail {
+    width: 400px; /* ทำให้ขยายเต็มความกว้าง */
+    font-size: 10px; /* ลดขนาดฟอนต์ */
+    margin-top: 10px; /* ลดระยะห่างของ enginedetail */
+  }
+
+  .layout1 div,
+  .layout2 div {
+    font-size: 20px; /* ลดขนาดฟอนต์ */
+  }
+
+  .detialcar img {
+    width: 100%; /* ทำให้ภาพเต็มความกว้างของ container */
+    height: auto; /* ปรับสูงตามกว้าง */
+  }
+}

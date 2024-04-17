@@ -1,0 +1,117 @@
+.login {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    max-width: 40%; /* หรือความกว้างที่ต้องการ */
+    margin: 0 auto; /* จะทำให้ .login อยู่ตรงกลางของหน้าจอ */
+}
+.carlogo1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+}
+.carkeypic1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 170px;
+    width: 170px;
+    margin: 0 auto;
+}
+.name1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* เพิ่มบรรทัดนี้เพื่อจัดให้เนื้อหาอยู่ตรงกลางแนวนอน */
+    color: black;
+    font-size: 35px;
+}
+
+.account{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* เพิ่มบรรทัดนี้เพื่อจัดให้เนื้อหาอยู่ตรงกลางแนวนอน */
+    color: black;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.account1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.imlogo-container {
+    display: flex;
+    justify-content: center; /* จัดให้รูปอยู่ตรงกลางแนวนอน */
+    align-items: center; /* จัดให้รูปอยู่ตรงกลางแนวตั้ง */
+    margin-top: 20px;
+}
+
+.imlogo {
+    width: 40px; /* กำหนดความกว้างของรูปเป็น 50px */
+    margin: 0 20px; /* กำหนดระยะห่างระหว่างรูป */
+}
+.icon-button {
+    background-color: transparent; /* กำหนดให้พื้นหลังเป็นโปร่งใส */
+    border: none; /* ลบเส้นขอบ */
+    cursor: pointer; /* เปลี่ยนเป็นรูปปุ่ม */
+    margin-top: 20px;
+}
+
+.icon-button img {
+    width: 40px; /* กำหนดขนาดของรูปภาพไอคอน */
+    height: 40px;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .login {
+        max-width: 80%; /* เปลี่ยนความกว้างของ .login เมื่อหน้าจอมีความกว้างน้อยกว่า 768px */
+    }
+
+    .name1 {
+        font-size: 25px; /* เปลี่ยนขนาดตัวอักษรของ .name1 เมื่อหน้าจอมีความกว้างน้อยกว่า 768px */
+    }
+
+    .account {
+        font-size: 12px; /* เปลี่ยนขนาดตัวอักษรของ .account เมื่อหน้าจอมีความกว้างน้อยกว่า 768px */
+    }
+
+    .imlogo {
+        width: 30px; /* เปลี่ยนขนาดของ .imlogo เมื่อหน้าจอมีความกว้างน้อยกว่า 768px */
+    }
+
+    .icon-button img {
+        width: 30px; /* เปลี่ยนขนาดของรูปภาพไอคอนใน .icon-button เมื่อหน้าจอมีความกว้างน้อยกว่า 768px */
+        height: 30px;
+    }
+    .carkeypic1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100px;
+        width: 100px;
+        margin: 0 auto;
+    }
+    .carlogo1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 240px;
+        width: 240px;
+        margin: 0 auto;
+    }
+}
+  
